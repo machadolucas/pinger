@@ -34,7 +34,8 @@ repositories {
 
 dependencies {
     compile group: 'org.springframework.boot', name: 'spring-boot-starter-data-mongodb'
-    compile group: 'org.springframework.boot', name: 'spring-boot-devtools'
+    compile group: 'org.springframework.boot', name: 'spring-boot-starter-cache'
+    compile group: 'org.springframework.boot', name: 'spring-boot-starter-security'
 
     compile group: 'org.projectlombok', name: 'lombok'
     compile group: 'com.vaadin', name: 'vaadin-spring-boot-starter', version:'1.2.0'

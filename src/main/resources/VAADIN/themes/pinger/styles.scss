@@ -1,0 +1,4 @@
+@import "pinger";
+.pinger {
+  @include pinger;
+}
